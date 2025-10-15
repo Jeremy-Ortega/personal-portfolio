@@ -51,4 +51,4 @@ Live Demo:
 https://jeremy-ortega.github.io/personal-portfolio/
 
 Demo Recording:
-To be Added
+https://drive.google.com/drive/folders/1CPcRDf8MBsIWdgcZDrUe-_ogdrGXEgeV?usp=sharing
