@@ -17,7 +17,7 @@ function App() {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"
         />
-        <title>Kalay - Portfolio HTML Template</title>
+        <title>Personal Portfolio</title>
         {/*
 
       Template 2087 Kalay
@@ -39,12 +39,13 @@ function App() {
               <div className="col-md-offset-5 col-md-7 col-sm-12">
                 <div className="home-thumb">
                   <h1 className="wow fadeInUp" data-wow-delay="0.4s">
-                    Hello, I am Kalay.
+                    Hello, I am Jeremy.
                   </h1>
                   <p className="wow fadeInUp white-color" data-wow-delay="0.6s">
-                    Praesent eleifend tristique nisl, nec finibus urna posuere nec.
-                    Quisque vel nunc eget arcu maximus facilisis non eu nisi. Aliquam
-                    ullamcorper est a nisl imperdiet luctus.
+                    I’m currently pursuing a Bachelor’s degree in Information Systems.
+                    In my free time, I enjoy creating digital art and editing videos.
+                    I’m always eager to learn new skills and connect with new people.
+
                   </p>
                   <a
                     href="#service"
@@ -64,26 +65,24 @@ function App() {
             <div className="row">
               <div className="wow fadeInUp section-title" data-wow-delay="0.2s">
                 {/* SECTION TITLE */}
-                <h2>what things i am doing...</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur venenatis tincidunt.</p>
+                <h2>What I'm doing</h2>
+                <p>These are some of the things that I'm doing and interested in.</p>
               </div>
               <div className="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
-                <div className="service-thumb">
-                  <i className="fa fa-smile-o" />
-                  <h4>Graphic Design</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing morbi
-                    venenatis.
+                <div className="service-thumb bg-midori">
+                  <i className="fa fa-clone" />
+                  <h4 className='white-color'>Illustration</h4>
+                  <p className='white-color'>
+                    I do digital illustrations of different characters and scenes from various media. 
                   </p>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
-                <div className="service-thumb bg-grey">
+                <div className="service-thumb">
                   <i className="fa fa-camera" />
-                  <h4 className="white-color">Photography</h4>
+                  <h4>Editing</h4>
                   <p>
-                    Duis sed arcu sed nunc maximus tempor. Maecenas et enim laoreet,
-                    pharetra risus vel.
+                    I edit videos as a part of a committee and mostly for school works. <br /><br />
                   </p>
                 </div>
               </div>
@@ -92,18 +91,77 @@ function App() {
                   <i className="fa fa-lightbulb-o" />
                   <h4>UI/UX design</h4>
                   <p>
-                    Sed tristique, nunc sit amet pellentesque pharetra, sapien urna.
+                    I'm interested in designing UI for websites and applications. <br /><br />
                   </p>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
                 <div className="service-thumb">
-                  <i className="fa fa-clone" />
-                  <h4>illustration</h4>
+                  <i className="fa fa-smile-o " />
+                  <h4>Game Developing</h4>
                   <p>
-                    Cras ut urna quis nisi luctus molestie tincidunt sed ipsum. Donec
-                    gravida laoreet erat.
+                    I'm interested in trying it soon as a way to combine my passion for art and playing.
                   </p>
+                </div>
+                <br /><br />
+              </div>
+                
+
+                <h2>Tech Stack</h2>
+                <p>These are some of the languages/tools I had experience with.</p>
+
+
+              <div className="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                  <div className="service-thumb">
+                    <img src="./images/html.png" alt="HTML Icon" style={{ width: '60px', height: '60px', objectFit: 'contain' }} />
+                </div>
+              </div>
+
+              <div className="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                  <div className="service-thumb">
+                    <img src="./images/js.png" alt="HTML Icon" style={{ width: '60px', height: '60px', objectFit: 'contain' }} />
+                </div>
+              </div>
+
+              <div className="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                  <div className="service-thumb">
+                    <img src="./images/css-3.png" alt="HTML Icon" style={{ width: '60px', height: '60px', objectFit: 'contain' }} />
+                </div>
+              </div>
+
+              <div className="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                  <div className="service-thumb">
+                    <img src="./images/php.png" alt="HTML Icon" style={{ width: '60px', height: '60px', objectFit: 'contain' }} />
+                </div>
+              </div>
+
+              <div className="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                  <div className="service-thumb">
+                    <img src="./images/figma.png" alt="HTML Icon" style={{ width: '60px', height: '60px', objectFit: 'contain' }} />
+                </div>
+              </div>
+
+              <div className="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                  <div className="service-thumb">
+                    <img src="./images/Canva.png" alt="HTML Icon" style={{ width: '60px', height: '60px', objectFit: 'contain' }} />
+                </div>
+              </div>
+
+              <div className="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                  <div className="service-thumb">
+                    <img src="./images/python.png" alt="HTML Icon" style={{ width: '60px', height: '60px', objectFit: 'contain' }} />
+                </div>
+              </div>
+
+              <div className="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                  <div className="service-thumb">
+                    <img src="./images/physics.png" alt="HTML Icon" style={{ width: '60px', height: '60px', objectFit: 'contain' }} />
+                </div>
+              </div>
+
+              <div className="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                  <div className="service-thumb">
+                    <img src="./images/tailwind.png" alt="HTML Icon" style={{ width: '60px', height: '60px', objectFit: 'contain' }} />
                 </div>
               </div>
             </div>
@@ -116,24 +174,22 @@ function App() {
               <div className="col-md-4 col-sm-8">
                 <div className="about-image-thumb">
                   <img
-                    src="images/profile-image.jpg"
+                    src="images/pfp-image.jpg"
                     className="wow fadeInUp img-responsive"
                     data-wow-delay="0.2s"
                     alt="about image"
                   />
                   <ul className="social-icon">
                     <li>
-                      <a href="#" className="fa fa-facebook" />
+                      <a href="https://www.facebook.com/jeremy.ortega.735944/" className="fa fa-facebook" target="_blank" rel="noopener noreferrer"/>
                     </li>
                     <li>
-                      <a href="#" className="fa fa-twitter" />
+                      <a href="https://x.com/HydraPomph_" className="fa fa-twitter" target="_blank" rel="noopener noreferrer"/>
                     </li>
                     <li>
-                      <a href="#" className="fa fa-instagram" />
+                      <a href="https://www.instagram.com/jeremi_suuing/" className="fa fa-instagram" target="_blank" rel="noopener noreferrer"/>
                     </li>
-                    <li>
-                      <a href="#" className="fa fa-behance" />
-                    </li>
+ 
                   </ul>
                 </div>
               </div>
@@ -141,23 +197,33 @@ function App() {
                 <div className="about-thumb">
                   {/* SECTION TITLE */}
                   <div className="wow fadeInUp section-title" data-wow-delay="0.6s">
-                    <h2>a little more about Kalay</h2>
+                    <h2>a little more about Jeremy</h2>
                     <p>
-                      Graphic Designer, Creative Photographer &amp; Front-end
+                      Aspiring Illustrator/ Concept artist, UI/UX designer &amp; Front-end
                       Developer
                     </p>
                   </div>
                   <div className="wow fadeInUp" data-wow-delay="0.8s">
                     <p>
-                      Praesent eleifend tristique nisl, nec finibus urna posuere nec.
-                      Quisque vel nunc eget arcu maximus facilisis non eu nisi.
-                      Aliquam ullamcorper est a nisl imperdiet luctus.
+                      <h4>Education</h4> 
+                      <b>Senior Highschool | 2012 - 2024</b> <br />
+                      <ul>
+                        <li>La Verdad Christian School Apalit Pampanga</li>
+                        </ul>
+                       <br /><br />
+                      
+                      <h4>Achievements</h4> 
+                      <ul>
+                        <li>2nd place in Regional Collaborative Desktop Publishing 2016 (Cartoonist)</li>
+                        <li>With Honors throughout JHS and SHS</li>
+                        <li>PRISAA : Bronze (Chess Team Category)</li>
+                      </ul>
+                      
+                      
+                      {/* <b>La Verdad Christian School Apalit Pampanga</b> <br />                      */}
                     </p>
                     <p>
-                      Sed sed convallis odio. Nulla scelerisque libero efficitur diam
-                      fermentum, quis tincidunt urna placerat. Maecenas sed tortor sed
-                      nisi semper ultricies. Nulla ornare metus in massa mollis
-                      scelerisque.
+                      //
                     </p>
                   </div>
                 </div>
@@ -172,20 +238,24 @@ function App() {
               <div className="col-md-12 col-sm-12">
                 {/* SECTION TITLE */}
                 <div className="wow fadeInUp section-title" data-wow-delay="0.2s">
-                  <h2>Seleted Designs</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur venenatis tincidunt.</p>
+                  <h2>Art Commissions</h2>
+                  <p>Here are some of the commissions I've made.</p>
                 </div>
               </div>
+
+
+
+
               <div className="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
                 {/* WORK THUMB */}
                 <div className="work-thumb">
-                  <a href="images/work-image1.jpg" className="image-popup">
+                  <a href="images/4.png" className="image-popup">
                     <div className="work-thumb-overlay">
                       <h4 className="white-color">First Title</h4>
                       <h2>Graphic Design</h2>
                     </div>
                     <img
-                      src="images/work-image1.jpg"
+                      src="images/8.png"
                       className="img-responsive"
                       alt="Work 1"
                     />
@@ -195,13 +265,13 @@ function App() {
               <div className="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
                 {/* WORK THUMB */}
                 <div className="work-thumb">
-                  <a href="images/work-image2.jpg" className="image-popup">
+                  <a href="images/9.png" className="image-popup">
                     <div className="work-thumb-overlay">
                       <h4 className="white-color">Title Two</h4>
                       <h2>Photography</h2>
                     </div>
                     <img
-                      src="images/work-image2.jpg"
+                      src="images/9.png"
                       className="img-responsive"
                       alt="Work 2"
                     />
@@ -211,20 +281,43 @@ function App() {
               <div className="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
                 {/* WORK THUMB */}
                 <div className="work-thumb">
-                  <a href="images/work-image3.jpg" className="image-popup">
+                  <a href="images/4.png  w-[290px] h-[300px]" className="image-popup">
                     <div className="work-thumb-overlay">
                       <h4 className="white-color">Third Title</h4>
                       <h2>illustration</h2>
                     </div>
                     <img
-                      src="images/work-image3.jpg"
-                      className="img-responsive"
+                      src="images/4.png"
+                      className="img-responsive w-[290px] h-[300px]"
                       alt="Work 3"
                     />
                   </a>
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+        
+        {/* TECH SKILLS SECTION */}
+        
+        <section id="about" className="parallax-section">
+          <div className="container">
+
+                  {/* SECTION TITLE */}
+                  <div className="wow fadeInUp section-title" data-wow-delay="0.6s">
+                    <h2>Resume</h2>
+                    <p>
+                      Interested in working together? Feel free to check out my resume below.
+                    </p>
+                    <a
+                    href={`${import.meta.env.BASE_URL}Resume_Ortega_Jeremy S..pdf`}
+                    download="Ortega, Jeremy S._Resume.pdf"
+                    className="wow fadeInUp smoothScroll btn btn-default section-btn"
+                    data-wow-delay="1s"
+                  >
+                    Download CV
+                  </a>
+                </div>
           </div>
         </section>
         {/* CONTACT SECTION */}
@@ -235,7 +328,7 @@ function App() {
                 {/* SECTION TITLE */}
                 <div className="wow fadeInUp section-title" data-wow-delay="0.2s">
                   <h2>Get in touch</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur venenatis tincidunt.</p>
+                  <p>I'm eager to connect with other people. Feel free to reach out in any of my socials! </p>
                 </div>
               </div>
               <div className="col-md-7 col-sm-10">
@@ -289,20 +382,18 @@ function App() {
                   <div className="section-title">
                     <h2>Contact Info</h2>
                     <p>
-                      Lorem ipsum dolor sit consectetur adipiscing morbi venenatis et
-                      tortor consectetur adipisicing lacinia tortor morbi ultricies.
+                     Here is my contact incase you want to reach out!
                     </p>
                   </div>
                   <p>
-                    <i className="fa fa-map-marker" /> 456 New Street 22000, New York
-                    City, USA
+                    <i className="fa fa-map-marker" /> ADD Street, Sampaloc, Pampanga 2016
                   </p>
                   <p>
                     <i className="fa fa-comment" />{" "}
-                    <a href="mailto:info@company.com">info@company.com</a>
+                    <a href="mailto:jeremysortega@gmail.com">jeremysortega@gmail.com</a>
                   </p>
                   <p>
-                    <i className="fa fa-phone" /> 010-020-0340
+                    <i className="fa fa-phone" /> 0939 205 1252
                   </p>
                 </div>
               </div>
@@ -315,21 +406,18 @@ function App() {
             <div className="row">
               <div className="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.8s">
                 <p className="white-color">
-                  Copyright © 2017 Your Company | Design: Tooplate
+                  Copyright © 2025 Ortega Jeremy | Design: Tooplate
                 </p>
                 <div className="wow fadeInUp" data-wow-delay="1s">
                   <ul className="social-icon">
                     <li>
-                      <a href="#" className="fa fa-facebook" />
+                      <a href="https://www.facebook.com/jeremy.ortega.735944/" className="fa fa-facebook" target="_blank" rel="noopener noreferrer"/>
                     </li>
                     <li>
-                      <a href="#" className="fa fa-twitter" />
+                      <a href="https://x.com/HydraPomph_" className="fa fa-twitter" target="_blank" rel="noopener noreferrer"/>
                     </li>
                     <li>
-                      <a href="#" className="fa fa-instagram" />
-                    </li>
-                    <li>
-                      <a href="#" className="fa fa-behance" />
+                      <a href="https://www.instagram.com/jeremi_suuing/" className="fa fa-instagram" target="_blank" rel="noopener noreferrer"/>
                     </li>
                     <li>
                       <a href="#" className="fa fa-github" />
