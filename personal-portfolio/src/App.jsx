@@ -203,13 +203,20 @@ function App() {
                       Developer
                     </p>
                   </div>
+    
                   <div className="wow fadeInUp" data-wow-delay="0.8s">
                     <p>
                       <h4>Education</h4> 
-                      <b>Senior Highschool | 2012 - 2024</b> <br />
+                      <b>Bachelor of Science and Information Systems | 2023 - ongoing</b> <br />
+                      <ul>
+                        <li>La Verdad Christian College Apalit Pampanga</li>
+                      </ul>
+
+                      <b>Senior Highschool | 2012 - 2023</b> <br />
                       <ul>
                         <li>La Verdad Christian School Apalit Pampanga</li>
-                        </ul>
+                      </ul>
+                        
                        <br /><br />
                       
                       <h4>Achievements</h4> 
@@ -223,7 +230,6 @@ function App() {
                       {/* <b>La Verdad Christian School Apalit Pampanga</b> <br />                      */}
                     </p>
                     <p>
-                      //
                     </p>
                   </div>
                 </div>
@@ -249,13 +255,13 @@ function App() {
               <div className="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
                 {/* WORK THUMB */}
                 <div className="work-thumb">
-                  <a href="images/4.png" className="image-popup">
+                  <a href="images/9.png" className="image-popup">
                     <div className="work-thumb-overlay">
-                      <h4 className="white-color">First Title</h4>
-                      <h2>Graphic Design</h2>
+                      <h4 className="white-color">September</h4>
+                      <h2>2025</h2>
                     </div>
                     <img
-                      src="images/8.png"
+                      src="images/9.png"
                       className="img-responsive"
                       alt="Work 1"
                     />
@@ -265,13 +271,13 @@ function App() {
               <div className="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
                 {/* WORK THUMB */}
                 <div className="work-thumb">
-                  <a href="images/9.png" className="image-popup">
+                  <a href="images/8.png" className="image-popup">
                     <div className="work-thumb-overlay">
-                      <h4 className="white-color">Title Two</h4>
-                      <h2>Photography</h2>
+                      <h4 className="white-color">February</h4>
+                      <h2>2024</h2>
                     </div>
                     <img
-                      src="images/9.png"
+                      src="images/8.png"
                       className="img-responsive"
                       alt="Work 2"
                     />
@@ -283,8 +289,8 @@ function App() {
                 <div className="work-thumb">
                   <a href="images/4.png  w-[290px] h-[300px]" className="image-popup">
                     <div className="work-thumb-overlay">
-                      <h4 className="white-color">Third Title</h4>
-                      <h2>illustration</h2>
+                      <h4 className="white-color">April</h4>
+                      <h2>2025</h2>
                     </div>
                     <img
                       src="images/4.png"
@@ -299,17 +305,20 @@ function App() {
         </section>
         
         {/* TECH SKILLS SECTION */}
-        
-        <section id="about" className="parallax-section">
+  <section id="about" className="parallax-section">
           <div className="container">
+            <div className="row">
 
+              <div className="col-md-8 col-sm-12">
+                <div className="about-thumb">
                   {/* SECTION TITLE */}
                   <div className="wow fadeInUp section-title" data-wow-delay="0.6s">
                     <h2>Resume</h2>
                     <p>
                       Interested in working together? Feel free to check out my resume below.
+
                     </p>
-                    <a
+                                       <a
                     href={`${import.meta.env.BASE_URL}Resume_Ortega_Jeremy S..pdf`}
                     download="Ortega, Jeremy S._Resume.pdf"
                     className="wow fadeInUp smoothScroll btn btn-default section-btn"
@@ -317,9 +326,28 @@ function App() {
                   >
                     Download CV
                   </a>
+                  
+                  </div>
+
+
                 </div>
+              </div>
+                          <div className="col-md-4 col-sm-8">
+                <div className="about-image-thumb">
+                  <img
+                    src="images/logo colored no text.png"
+                    className="wow fadeInUp img-responsive"
+                    data-wow-delay="0.2s"
+                    alt="about image"
+                  />
+                 
+                </div>
+              </div>
+                
+            </div>
           </div>
         </section>
+
         {/* CONTACT SECTION */}
         <section id="contact" className="parallax-section">
           <div className="container">
@@ -420,7 +448,7 @@ function App() {
                       <a href="https://www.instagram.com/jeremi_suuing/" className="fa fa-instagram" target="_blank" rel="noopener noreferrer"/>
                     </li>
                     <li>
-                      <a href="#" className="fa fa-github" />
+                      <a href="https://github.com/Jeremy-Ortega" className="fa fa-github" />
                     </li>
                   </ul>
                 </div>
