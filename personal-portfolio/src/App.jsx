@@ -335,7 +335,7 @@ function App() {
                           <div className="col-md-4 col-sm-8">
                 <div className="about-image-thumb">
                   <img
-                    src="images/logo colored no text.png"
+                    src="images/logoColoredNotext.png"
                     className="wow fadeInUp img-responsive"
                     data-wow-delay="0.2s"
                     alt="about image"
